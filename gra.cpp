@@ -30,7 +30,7 @@ while(pkt<5){
    t[x][y]='G';
    t[8][8]='M';
    //generacja przeszkod
-    for(int i=0;i<20;i++){
+    for(int i=0;i<21;i++){
         int a = rand()%10;
         int b = rand()%10;
         if(t[a][b]==' '){
